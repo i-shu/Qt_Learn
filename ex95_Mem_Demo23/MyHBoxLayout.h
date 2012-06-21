@@ -3,7 +3,7 @@
 
 #include <QtGui>
 
-class MyHBoxLayout : public QHBoxLayout
+class MyHBoxLayout: public QHBoxLayout
 {
 public:
 	MyHBoxLayout();

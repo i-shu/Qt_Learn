@@ -3,10 +3,11 @@
 
 #include <QtGui>
 
-class MyLabel : public QLabel
+class MyLabel: public QLabel
 {
 public:
-	explicit MyLabel(const QString &text, QWidget *parent=0, Qt::WindowFlags f=0);
+	explicit MyLabel(const QString &text, QWidget *parent = 0,
+			Qt::WindowFlags f = 0);
 	virtual ~MyLabel();
 };
 

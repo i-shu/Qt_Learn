@@ -7,10 +7,8 @@
 #include "MyVBoxLayout.h"
 
 CustomDialog::CustomDialog(QWidget *parent, Qt::WindowFlags f) :
-		QDialog(parent, f),
-		msgLabelPtr(NULL),
-		okButtonPtr(NULL),
-		cancelButtonPtr(NULL)
+		QDialog(parent, f), msgLabelPtr(NULL), okButtonPtr(NULL), cancelButtonPtr(
+				NULL)
 {
 	msgLabelPtr = new MyLabel("This area is for some message!");
 	okButtonPtr = new MyButton("OK");

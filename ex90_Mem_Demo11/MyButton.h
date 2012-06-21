@@ -1,11 +1,11 @@
 #ifndef CXX_MYBUTTON_H
 #define CXX_MYBUTTON_H
 
-#include <QtGui>
+#include <QPushButton>
 
 class MyButton: public QPushButton
 {
-	Q_OBJECT
+Q_OBJECT
 public:
 	explicit MyButton(const QString &text, QWidget *parent = 0);
 	virtual ~MyButton();

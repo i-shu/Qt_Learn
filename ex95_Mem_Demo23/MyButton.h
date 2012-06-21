@@ -5,7 +5,7 @@
 
 class MyButton: public QPushButton
 {
-	Q_OBJECT
+Q_OBJECT
 public:
 	explicit MyButton(const QString &text, QWidget *parent = 0);
 	virtual ~MyButton();

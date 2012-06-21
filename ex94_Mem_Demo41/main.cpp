@@ -4,13 +4,13 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
-	
-    QPointer<MyButton> buttonPtr = new MyButton("Demo41");
-    buttonPtr->setAttribute(Qt::WA_DeleteOnClose, true);
-    buttonPtr->show();
+	QApplication app(argc, argv);
 
-    // check the pointer
+	QPointer<MyButton> buttonPtr = new MyButton("Demo41");
+	buttonPtr->setAttribute(Qt::WA_DeleteOnClose, true);
+	buttonPtr->show();
+
+	// check the pointer
 	if (buttonPtr.isNull())
 	{
 		std::cout << "[ Before Close ] isNull() == True" << std::endl;
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 
 	// until quit app
-    std::cout << "Qt status: " << app.exec() << std::endl;
+	std::cout << "Qt status: " << app.exec() << std::endl;
 
 	// check the pointer
 	if (buttonPtr.isNull())
@@ -33,5 +33,5 @@ int main(int argc, char *argv[])
 		std::cout << "[ After Close ] isNull() == False" << std::endl;
 	}
 
-    return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }

@@ -28,7 +28,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.command</key>
-					<value>mingw32-make</value>
+					<value>make</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.location</key>
@@ -64,7 +64,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.environment</key>
-					<value>PATH=C:\\Qt\\4.8.2\\bin;${env_var:PATH}|</value>
+					<value>PATH=D:\\DEVELOP\\Qt\\4.8.2\\bin;${env_var:PATH};C:\\Qt\\4.8.2\\bin|</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.stopOnError</key>

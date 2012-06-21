@@ -6,7 +6,7 @@
 class MyLabel;
 class MyButton;
 
-class CustomDialog : public QDialog
+class CustomDialog: public QDialog
 {
 public:
 	explicit CustomDialog(QWidget *parent = 0, Qt::WindowFlags f = 0);

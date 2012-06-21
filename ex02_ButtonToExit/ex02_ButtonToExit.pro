@@ -1,8 +1,7 @@
 TEMPLATE = app
 TARGET = ex02_ButtonToExit
-QT += 
+QT += gui
 HEADERS += 
-SOURCES += main.cpp \
-    main.cpp
+SOURCES += main.cpp 
 FORMS += 
 RESOURCES += 

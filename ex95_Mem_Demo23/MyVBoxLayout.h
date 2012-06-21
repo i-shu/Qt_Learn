@@ -3,7 +3,7 @@
 
 #include <QtGui>
 
-class MyVBoxLayout : public QVBoxLayout
+class MyVBoxLayout: public QVBoxLayout
 {
 public:
 	MyVBoxLayout();
