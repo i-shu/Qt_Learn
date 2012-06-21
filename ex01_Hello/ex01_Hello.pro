@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = ex01_Hello 
 
-QT        += 
+QT        += gui
 
 HEADERS   +=
 SOURCES   += main.cpp
